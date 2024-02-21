@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <script src="lab02.js"></script>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <h1 id="date"></h1> <!-- Thêm một thẻ h1 với id "date" -->
+    <script>
+        // Lấy thẻ h1 có id "date"
+        var dateElement = document.getElementById("date");
+        // Gán nội dung của thẻ h1 là ngày tháng năm lấy từ hàm getDate
+        dateElement.textContent = getDate();
+    </script>
+</body>
+</html>
